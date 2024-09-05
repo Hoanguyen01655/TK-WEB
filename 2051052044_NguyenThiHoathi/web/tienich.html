@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
+    <!-- dangky -->
+    <script src="/dangky/scripts.js"></script>
+    <link rel="stylesheet" href="/dangky/styles.css" />
+
+    <!-- tkbtuan -->
+    <script src="/tkbtuan/scripts.js"></script>
+    <link rel="stylesheet" href="/tkbtuan/styles.css" />
+    <!-- diem -->
+    <script src="/diem/scripts.js"></script>
+    <link rel="stylesheet" href="/diem/diem.css" />
+  </head>
+  <body>
+    <header class="header" style="background-color: #003366">
+      <div class="container">
+        <div class="logo">
+          <img src="/image/logo.png" alt="Logo" />
+          <hr />
+        </div>
+
+        <nav class="nav">
+          <ul class="menu">
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="/thongtin/thongtin.html">Thông tin</a></li>
+
+            <li><a href="/login/login.html">Đăng xuất</a></li>
+            <!-- Dropdown Feature -->
+            <li class="dropdown">
+              <a href="#" onclick="toggleDropdown()">Tính năng &#x25BC;</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#" onclick="loadPage('/dangky/indexdk.html')"
+                    >Đăng ký môn học</a
+                  >
+                </li>
+                <li><a href="#">Xem học phí</a></li>
+                <li>
+                  <a href="#" onclick="loadPage('/tkbtuan/tuan.html')"
+                    >Xem thời khóa biểu tuần</a
+                  >
+                </li>
+                <li><a href="#">Xem thời khóa biểu học kỳ</a></li>
+
+                <li><a href="/diem/diem.html">Xem điểm</a></li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="container">
+        <div class="notification-container">
+          <div class="notification-header">THÔNG BÁO</div>
+
+          <div class="warning-banner">
+            <img src="/image/chuy.png" alt="Warning" />
+            <p>
+              Các thông tin cần biết trước khi thực hiện đăng ký môn học trực
+              tuyến!
+            </p>
+          </div>
+
+          <table class="notification-list">
+            <tr>
+              <th>Nội dung</th>
+              <th>Ngày đăng</th>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"
+                  >Kế hoạch đăng ký môn học trực tuyến học kỳ 1 - Năm học
+                  2024-2025 (Chương trình Chất lượng cao)</a
+                >
+              </td>
+              <td class="notification-date">20/08/2024 16:43</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#"
+                  >Kế hoạch đăng ký môn học trực tuyến học kỳ 1 - Năm học
+                  2023-2024 (Chương trình Chuẩn)</a
+                >
+              </td>
+              <td class="notification-date">20/08/2024 16:52</td>
+            </tr>
+            <tr>
+              <td><a href="#">Thông báo học phí</a></td>
+              <td class="notification-date">05/02/2024 00:00</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#">Kế hoạch học GDQP&GDTC1 - Năm học 2024/2025</a>
+              </td>
+              <td class="notification-date">19/07/2024 08:19</td>
+            </tr>
+            <tr>
+              <td><a href="#">KHUNG THỜI GIAN RA - VÀO LỚP</a></td>
+              <td class="notification-date">12/10/2023 15:36</td>
+            </tr>
+            <tr>
+              <td><a href="#">Địa điểm học tập</a></td>
+              <td class="notification-date">17/04/2023 00:00</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <p>© 2023 Trung Tâm Đào Tạo Trực Tuyến. All rights reserved.</p>
+        <div class="footer-info">
+          <p>Hotline: 123-456-789</p>
+          <p>Email: support@domain.com</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

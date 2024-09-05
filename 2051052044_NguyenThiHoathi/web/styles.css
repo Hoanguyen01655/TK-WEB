@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Header */
+.header {
+  background-color: #003366;
+  padding: 15px 0;
+  color: white;
+  text-align: center;
+}
+header .container {
+  background-color: #003366;
+}
+.header .logo img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav .menu li {
+  position: relative;
+}
+
+.nav .menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav .menu li a:hover {
+  text-decoration: underline;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #003366;
+  list-style: none;
+  padding: 10px;
+  top: 30px;
+  left: 0;
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  margin-bottom: 5px;
+}
+
+.dropdown-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  text-decoration: underline;
+}
+/* 
+section */
+.notification-container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header of the notification section */
+.notification-header {
+  background-color: #003366;
+  color: white;
+  padding: 15px;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+/* Warning banner styling */
+.warning-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.warning-banner img {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.warning-banner p {
+  font-size: 1.2em;
+  color: red;
+}
+
+/* Table for the notifications */
+.notification-list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.notification-list th,
+.notification-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.notification-list th {
+  background-color: #f2f2f2;
+}
+
+.notification-list a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.notification-list a:hover {
+  text-decoration: underline;
+}
+
+/* Date styling */
+.notification-date {
+  color: gray;
+  font-size: 0.9em;
+}
+
+/* Footer */
+.footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-info {
+  margin-top: 10px;
+}

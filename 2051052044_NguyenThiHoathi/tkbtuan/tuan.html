@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timetable</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <div class="timetable-container">
+        <h2>THỜI KHÓA BIỂU HỌC KỲ</h2>
+        <div class="controls">
+          <select id="term">
+            <option>Học kỳ 1 Năm học 2023-2024</option>
+            <option>Học kỳ 2 Năm học 2023-2024</option>
+            <option>Học kỳ 3 Năm học 2023-2024</option>
+          </select>
+          <select id="schedule-type">
+            <option>Thời khóa biểu cá nhân</option>
+            <option>Thời khóa biểu môn học</option>
+            <option>Thời khóa biểu khoa</option>
+          </select>
+          <div class="week-display">
+            <select id="term">
+              <option value="">Tuần 1</option>
+              <option value="">Tuần 2</option>
+              <option value="">Tuần 3</option>
+              <option value="">Tuần 4</option>
+              <option value="">Tuần 5</option>
+              <option value="">Tuần 6</option>
+              <option value="">Tuần 7</option>
+              <option value="">Tuần 8</option>
+              <option value="">Tuần 9</option>
+            </select>
+          </div>
+          <button class="print-btn">In</button>
+        </div>
+        <table class="timetable">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Thứ 2</th>
+              <th>Thứ 3</th>
+              <th>Thứ 4</th>
+              <th>Thứ 5</th>
+              <th>Thứ 6</th>
+              <th>Thứ 7</th>
+              <th>Chủ Nhật</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Repeat this block for each row -->
+            <tr>
+              <td>Tiết 1</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tiết 2</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tiết 3</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tiết 4</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tiết 5</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tiết 5</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tiết 6</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tiết 7</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Tiết 8</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="navigation">
+          <button class="prev-btn">← Trước</button>
+          <button class="next-btn">Sau →</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

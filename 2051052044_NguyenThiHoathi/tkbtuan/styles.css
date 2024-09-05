@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #005f9e;
+  padding: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timetable-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+h2 {
+  color: #005f9e;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#term,
+#schedule-type {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.week-display {
+  flex-grow: 1;
+}
+
+.print-btn {
+  padding: 8px 12px;
+  background-color: #005f9e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #005f9e;
+  color: white;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prev-btn,
+.next-btn {
+  padding: 8px 12px;
+  background-color: #005f9e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

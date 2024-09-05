@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <section>
+      <!-- Registration Section -->
+      <div class="registration-section">
+        <h1>ĐĂNG KÝ MÔN HỌC HỌC KỲ 1 - NĂM HỌC 2024-2025</h1>
+
+        <div class="search-bar">
+          <label for="student-class"
+            >Môn học mở theo lớp sinh viên DH23IT03</label
+          >
+          <select id="student-class">
+            <option value="class1">Lớp DH23IT01</option>
+            <option value="class2">Lớp DH23IT02</option>
+            <option value="class3">Lớp DH23IT03</option>
+          </select>
+        </div>
+
+        <!-- Available Courses Table -->
+        <div class="table-container">
+          <h2>Danh sách môn học mở cho đăng ký:</h2>
+          <p class="note">
+            Phòng QLĐT thường xuyên cập nhật sĩ số và mở lớp mới sau 9h00 và
+            17h00 mỗi ngày
+          </p>
+          <table id="available-courses" class="table">
+            <thead>
+              <tr>
+                <th>Mã MH</th>
+                <th>Tên môn học</th>
+                <th>Nhóm</th>
+                <th>Tổ</th>
+                <th>Số TC</th>
+                <th>Lớp</th>
+                <th>Số lượng</th>
+                <th>Còn lại</th>
+                <th>Thời khóa biểu</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>MH01</td>
+                <td>Toán cao cấp</td>
+                <td>1</td>
+                <td>01</td>
+                <td>3</td>
+                <td>DH20IT01</td>
+                <td>30</td>
+                <td>10</td>
+                <td><button>Xem</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="table-container">
+          <h2>Danh sách môn học đã đăng ký:</h2>
+          <table id="registered-courses" class="table">
+            <thead>
+              <tr>
+                <th>Xóa</th>
+                <th>Mã MH</th>
+                <th>Tên môn học</th>
+                <th>Nhóm tổ</th>
+                <th>Số TC</th>
+                <th>Lớp</th>
+                <th>Ngày đăng ký</th>
+                <th>Trạng thái</th>
+                <th>Thời khóa biểu</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><button class="delete-btn">Xóa</button></td>
+                <td>MH01</td>
+                <td>Toán cao cấp</td>
+                <td>1</td>
+                <td>3</td>
+                <td>DH23IT01</td>
+                <td>10/09/2024</td>
+                <td>Đăng ký thành công</td>
+                <td><button>Xem</button></td>
+              </tr>
+              <tr>
+                <td><button class="delete-btn">Xóa</button></td>
+                <td>MH01</td>
+                <td>Triết học Mác Lênin</td>
+                <td>1</td>
+                <td>3</td>
+                <td>DH23IT01</td>
+                <td>10/09/2024</td>
+                <td>Đăng ký thành công</td>
+                <td><button>Xem</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
